@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  height: 40px;
+  width1: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  min-width: 50px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  outline: 0;
+}
+
+button: active {
+  background-color: #BEBEBE;
+  outline: 0;
+}
